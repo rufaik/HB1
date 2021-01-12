@@ -1,16 +1,226 @@
-/*.slide-container {
-  width: 70%;
+.slide-container1 {
+  width: 100%;
   position: absolute;
-  right: 0px;
+/*  right: 0px;*/
   top: 0px;
   z-index: -1
 
-}*/
+}
+.poet{
+  font-family: 'Poiret One', cursive; 
+}
+.copy{
+  font-family: 'Major Mono Display', monospace;
+  z-index: 1;
+
+    position: absolute;
+    right: 250px;
+    top: 405px;
+}
+
+.lyric{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  z-index: 1;
+
+    position: absolute;
+    right: -45px;
+    top: 40px;
+    text-align: right;
+}
+
+.vision{
+   font-family: 'Bowlby One SC', cursive;
+  z-index: 1;
+
+    position: absolute;
+    left: 250px;
+    top: 509px;
+    text-align: right;
+}
+
+.Hcontainer{
+   display: flex;
+/*  justify-content: space-between;
+*/  flex-direction: row;
+ /* font-family: 'Nerko One', cursive;*/
+/*  font-family: 'Ranchers', cursive;
+*//*  font-family: 'Big Shoulders Stencil Text', cursive;
+*//*  font-family: 'Major Mono Display', monospace;
+*//*  font-family: 'Poiret One', cursive; YAAA
+*//*  font-family: 'Paytone One', sans-serif; NOOOO
+*//*  font-family: 'Shadows Into Light Two', cursive; 
+*//*  font-family: 'Black Han Sans', sans-serif;
+*/  /*font-family: 'Bowlby One SC', cursive;*/
+  font-size: 32px;
+}
+.Hbox{
+  width: 400px;
+}
+
+p{
+font-size: 15px;
+   color:  #d4af37;
+
+ 
+ 
+}
+html,
+body {
+overflow-x: hidden;
+}
+ @media screen and (max-width: 400px) {
+  .Hcontainer {
+     display: block;
+ 
+   }
+   p {
+     visibility: hidden;
+     width:1px;
+     height: 1px;
+   }
+   .vid{
+    width: 75vw!important;
+    margin: 0 auto;
+    height: auto!important;
+    padding-top: 4.5rem;
+   }
+   .vision{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    left:0px;
+   }
+  body, html {
+    overflow: hidden;
+   }
+   .poet{
+    position: absolute;
+    left:10px;
+    font-size: .85em;
+    margin-top:0px;
+   }
+   .Hbox{
+    width: auto;
+   }
+   .lyric{
+    right:10px;
+    font-size: .70em;
+    margin-top: 20px;
+   }
+   .vision{
+    left: 290px;
+    top: 198px;
+    font-size: 0.48em;
+    margin: 0
+   
+   }
+   .copy{
+    font-size: .6em;
+    left:10px;
+    margin-top: 40px;
+   }
+   .vision h1 {
+    margin: 0;
+   }
+ };
+
+
+
+
+
+
+/*.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gown{
   margin-right:auto;
   margin-left: auto; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 860px) {
    .slide-container  {

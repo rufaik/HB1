@@ -13,12 +13,13 @@ import {Link} from 'react-router-dom';
 import Gold from './Gold'
 import { Fade } from 'react-slideshow-image';
 import Nav from './Nav'
+import ReactPlayer from 'react-player'
 
 
   const fadeImages = [
-  './booked.svg',
-  './inspec.svg',
-  './team.svg'
+  './Images/1.jpeg',
+  './Images/2.jpeg',
+  './Images/3.jpeg'
 ];
  
 const fadeProperties = {
@@ -34,53 +35,55 @@ const fadeProperties = {
 
 const Me = () => {
   return (
-  	<div>
-    <Nav  />
-   <br></br>
-<div size={400} style = {{ width: 'fit-content'}} className = "J gown pb0  pa2 pa3-ns ">
-    HerBasics <br></br><div className='f7 f4-ns mt2 mt0-ns frontfont'>Equipping girls with 3 basic elements 
-    <br></br>so that they can build their lives on healthy foundations
-    <br></br>Her Bra
-    <br></br> Her Self-Esteem
-    <br></br> Her Period
-    <br></br>
-      <br ></br>
-    <Link to="/Curriculum" ><button type="button" class="btn mt2 mt0-ns f7 f5-ns btn-outline-warning">Check out Our Curriculum >>></button></Link>
-    </div>
-   
-   
-
-
-  </div>
-
-
- 
-
-    <div className="slide-container mt5 mt6-ns" >
-      <Fade {...fadeProperties}>
-        <div className="each-fade">
-        <h2></h2>
-          <div className="image-container">
-            <img src={fadeImages[0]} />
+    <div>
+          <Nav />
+          <div className="pt3">
+            <div className="HC Hcontainer mt4 mt5-ns">
+              <div className="Hbox poet">
+                <h1>POET</h1>
+                <p> po·​et | \ ˈpō-ət,-it also ˈpȯ(-)it \
+                     Definition
+                      <br></br>i: one who writes poetry : a maker of verses
+                      <br></br>ii: one (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium
+                </p>
+              </div >
+              <ReactPlayer 
+                playing
+                  url='6.mp4'  
+                loop={true}
+                className="vid pt6 pt0-ns"
+              />
+              <div className="Hbox copy mt3 pr6-ns"> 
+                <h1>COPYWRITER</h1> 
+                <p> copy·​writ·​er | \ ˈkä-pē-ˌrī-tər  \
+                    Definition of copywriter
+                    <br></br>: a writer of advertising or publicity copy
+                    <br></br>: a writer of copy, especially for advertisements or publicity releases.
+                  </p> 
+            </div> 
+            <div className="Hbox lyric mt3 pr6-ns"> 
+                <h1>LYRICIST</h1> 
+                <p> lyr·​i·​cist | \ ˈlir-ə-sist  \
+                    Definition of lyricist
+                    <br></br>: a writer of lyrics
+                    <br></br>: a person who writes the lyrics for songs.
+                    <br></br>: a lyric poet.
+                    <br></br>: a writer who writes lyrics—words for songs—as opposed to a composer, 
+                    who writes the song's music which may include but not limited to the melody, harmony, arrangement and accompaniment.
+                  </p> 
+            </div> 
+            <div className="Hbox vision mt2"> 
+                <h1>VISIONARY</h1> 
+                <p className="w8"> vi·​sion·​ary | \ ˈvi-zhə-ˌner-ē  \
+                    Definition
+                    <br></br>: having or marked by foresight and imagination
+                    <br></br>: of the nature of a vision : ILLUSORY
+                    <br></br>: incapable of being realized or achieved : UTOPIAN
+                    <br></br>: existing only in imagination : UNREAL
+                  </p> 
+            </div> 
           </div>
-          
         </div>
-        <div className="each-fade">
-         <h2></h2>
-          <div className="image-container">
-            <img src={fadeImages[1]} />
-          </div>
-         
-        </div>
-        <div className="each-fade">
-        <h2></h2>
-          <div className="image-container">
-            <img src={fadeImages[2]} />
-          </div>
-          
-        </div>
-      </Fade>
-    </div>
     </div>
   )
 }

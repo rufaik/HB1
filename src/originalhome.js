@@ -1,18 +1,18 @@
-import React from 'react';
-import Card from './Card'
-import './App.css';
-import './Me.css'
-import './Complete.css'
-import CardList from './CardList'
-import { main } from './main'
-import LogoHeader from './Logo header'
-import Navigation from './Navigation'
-import 'tachyons';
-import {Link} from 'react-router-dom';
-import Logo from './Logo'
-import './Logo.css';
-import Gold from './Gold'
-import {Animated} from "react-animated-css"
+// {import React from 'react';
+// import Card from './Card'
+// import './App.css';
+// import './Me.css'
+// import './Complete.css'
+// import CardList from './CardList'
+// import { main } from './main'
+// import LogoHeader from './Logo header'
+// import Navigation from './Navigation'
+// import 'tachyons';
+// import {Link} from 'react-router-dom';
+// import Logo from './Logo'
+// import './Logo.css';
+// import Gold from './Gold'
+// import {Animated} from "react-animated-css"}
 
  
 
