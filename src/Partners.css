@@ -106,3 +106,10 @@ a:hover {
 }
 
 
+@media screen and (max-width: 700px) {
+  .Pc1 {
+     height: 42em;
+ 
+   }}
+   
+

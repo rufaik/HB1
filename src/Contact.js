@@ -11,45 +11,37 @@ import './Contact.css';
 const Contact = () => {
 	return (
 		<div >
+  		<div className="op1image pb5">
 		 <Nav/>
-		 <div className=" ">
+		 <div className="zap ">
 
-				<ZapierForm  action='https://hooks.zapier.com/hooks/catch/5717228/o3ntgre/'>
+				<ZapierForm  action='https://hooks.zapier.com/hooks/catch/5717228/o3ntgre/' className="zap ">
    {({ error, loading, success }) => {
       return (
          <div>
             {!success && !loading &&
                <div>
-               <article className="br3 bg-white ba b--black-10 mv1  shadow-5 center" style = {{ maxWidth: '330px'}}>
-<main className="pa4 pb0 black-80 measure">
+               <article className="br3 ba b--black-10 mv1 zapbg shadow-5 center mw5 mw7-ns " >
+			<main className="pa4 pb0 black-80 ">
 		    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-		    <legend className=" two f1 fw6 ph0 mh0">Contact Us</legend>
+		    <legend className=" Headerz  ph0 mh0">Contact Me</legend>
                		<div className="mt1">
-               		<label className="db fw6 lh-copy f6" for="name">Name</label>
-               	 <input className="pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100" type='text' name='Name' id="name" />
+               		<label className="fw6 lh-copyw-50 f6" for="name">Name</label>
+		        <input className="b pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100 " type='text' name='Name' id="name" />
                	 </div>
-               	  <div className="mt2">
-		        <label className="db fw6 lh-copy f6" for="name"> School/Company Name</label>
-		        <input className="pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="School"  id="name"/>
-		      </div>
-               	 <div className="mt2">
-		        <label className="db fw6 lh-copy f6" for="name">Postcode</label>
-		        <input className="pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="Postcode"  id="name"/>
-		      </div>
+
+ 
                   <div className="mt2">
-		        <label className="db fw6 lh-copy f6" for="email-address">Email</label>
-		        <input className="pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="Email"  id="name"/>
+		        <label className=" fw6 lh-copy w-50 f6" for="email-address">Email</label>
+		        <input className="b pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100 " type="email" name="Email"  id="name"/>
 		      </div>
                   <div className="mv2">
-		        <label className="db fw6 lh-copy f6" for="number">Contact Number</label>
+		        <label className=" fw6 lh-copy w-50 f6" for="number">Contact Number</label>
 		        <input className="b pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="number" name="Contact"  id="number"/>
 		      </div>
+  
                   <div className="mv2">
-		        <label className="db fw6 lh-copy f6" for="text">Programme you're interested in</label>
-		        <input className="b pa1 input-reset ba bg-transparent hover-bg-black hover-white w-100 " type="text" name="Programme"  id="number"/>
-		      </div>
-                  <div className="mv2">
-		        <label className="db fw6 lh-copy f6" for="text">Message</label>
+		        <label className=" fw6 lh-copy f6" for="text">Message</label>
 		        <textarea rows="4" className="b pa3 input-reset ba bg-transparent hover-bg-black hover-white w-100 " type="text" name="Message"  id="number"></textarea>
 		      </div>
 		      </fieldset>
@@ -87,6 +79,7 @@ const Contact = () => {
 </ZapierForm>
 
 	</div>
+				</div>
 				</div>
 			);
 }

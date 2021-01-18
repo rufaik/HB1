@@ -10,7 +10,7 @@ import Nav from './Nav'
 
 const Partners = () => {
   return (
-  	<div>
+  	<div className = 'Pc1'>
   <div className = 'Pcontainer'>
      <div className = 'first'>
      <a href="/About">
