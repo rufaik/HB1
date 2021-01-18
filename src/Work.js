@@ -12,14 +12,14 @@ const Work = () => {
 
     	<Nav />
     	<div className="workbox">
-    	<img  alt='orange' src='./tri.png' className ='imgrotate w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate1 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate2 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate3 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate4 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate5 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate6 w4'/>
-    	<img  alt='orange' src='./tri.png' className ='imgrotate7 w4'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate1 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate2 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate3 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate4 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate5 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate6 w2 w4-ns'/>
+    	<img  alt='orange' src='./tri.png' className ='imgrotate7 w2 w4-ns'/>
     	
     	<div>
     		
